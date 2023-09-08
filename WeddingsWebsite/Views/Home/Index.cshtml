@@ -1,0 +1,434 @@
+﻿@model IEnumerable<WeddingsWebsite.Models.WhatHot>
+@{
+    ViewBag.Title = "Trang Chủ";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<!-- content main  -->
+<content class="container-fluid">
+    <!-- Happy Clients -->
+    <div class="reveal fade-bottom container text-center d-block mb-5" id="feedback">
+        <div id="title-happy-client">
+            <h2 class="text-uppercase lineLeftRight">Niềm Hạnh Phúc</h2>
+            <div class="mt-3 mb-3">
+                <img src="~/images/decor.png" alt="decor" />
+            </div>
+            <p>
+                Những trải nghiệm tuyệt vời của khách hàng khi tin tưởng sử dụng dịch vụ của chúng tôi
+            </p>
+        </div>
+        <!-- carosel imgs -->
+        <div class="swiper Myswiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="carosel-happy-client row row-cols-1 row-cols-md-2 ">
+                        <div class="imgs-happy-client col col-md-6">
+                            <img src="~/images/AnhPhanLoai/StudioChupAnh/ecopark01.jpg" class="w-50 h-75 rounded shadow">
+                            <img src="~/images/AnhPhanLoai/StudioChupAnh/ecopark02.jpg" class="w-50 h-75 rounded shadow">
+                        </div>
+                        <div class="col col-md-6 text-center text-md-start">
+                            <h6>Lê Thị Lễ Ngọc &hearts; Nguyễn Văn Tuấn</h6><!-- author -->
+                            <h3>Trải Nghiệm Dịch Vụ Tuyệt Vời</h3><!-- title -->
+                            <p>
+                                <i class="fa-regular fa-heart text-danger"></i>
+                                <i class="fa-regular fa-heart text-danger"></i>
+                                <i class="fa-regular fa-heart text-danger"></i>
+                                <i class="fa-regular fa-heart text-danger"></i>
+                                <i class="fa-regular fa-heart text-danger"></i>
+                            </p>
+                            <p style="text-align: justify;">
+                                Cám ơn dịch vụ Love Of You, dịch vụ đám cưới trọn gói của bạn quá tốt. Đám cưới mình rất đẹp và đúng ý mình. Mình rất vui và hạnh phúc. Nhân viên thân thiện và rất tận tình tư vấn, ngày vui lại càng thêm vui.
+                            </p>
+
+                            <a href="~/DichVu/Index">
+                                <button>
+                                    <span>Read more</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="carosel-happy-client row row-cols-1 row-cols-md-2 ">
+                        <div class="imgs-happy-client col col-md-6">
+                            <img src="~/images/AnhPhanLoai/StudioChupAnh/dalat01.jpg" class="w-50 h-75 rounded shadow">
+                            <img src="~/images/AnhPhanLoai/StudioChupAnh/dalat02.jpg" class="w-50 h-75 rounded shadow">
+                        </div>
+                        <div class="col col-md-6 text-center text-md-start">
+                            <h6>Nguyễn Văn Hồng &hearts; Lê Thị Long</h6><!-- author -->
+                            <h3>Trải Nghiệm Dịch Vụ Tuyệt Vời</h3><!-- title -->
+                            <p>
+                                <i class="fa-regular fa-heart text-danger"></i>
+                                <i class="fa-regular fa-heart text-danger"></i>
+                                <i class="fa-regular fa-heart text-danger"></i>
+                                <i class="fa-regular fa-heart text-danger"></i>
+                                <i class="fa-regular fa-heart text-danger"></i>
+                            </p>
+                            <p style="text-align: justify;">Cám ơn dịch vụ Love Of You, dịch vụ đám cưới trọn gói của bạn quá tốt. Đám cưới mình rất đẹp và đúng ý mình. Mình rất vui và hạnh phúc. Nhân viên thân thiện và rất tận tình tư vấn, ngày vui lại càng thêm vui.</p>
+                            <a href="~/DichVu/Index">
+                                <button>
+                                    <span>Read more</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="carosel-happy-client row row-cols-1 row-cols-md-2 ">
+                        <div class="imgs-happy-client col col-md-6">
+                            <img src="~/images/AnhPhanLoai/StudioChupAnh/vinh02.jpg" class="w-50 h-75 rounded shadow">
+                            <img src="~/images/AnhPhanLoai/StudioChupAnh/vinh01.jpg" class="w-50 h-75 rounded shadow">
+                        </div>
+                        <div class="col col-md-6 text-center text-md-start">
+                            <h6>Lê Thị Hồng Ngọc &hearts; Minh Xuân Huy</h6><!-- author -->
+                            <h3>Trải Nghiệm Dịch Vụ Tuyệt Vời</h3><!-- title -->
+                            <p>
+                                <i class="fa-regular fa-heart text-danger"></i>
+                                <i class="fa-regular fa-heart text-danger"></i>
+                                <i class="fa-regular fa-heart text-danger"></i>
+                                <i class="fa-regular fa-heart text-danger"></i>
+                                <i class="fa-regular fa-heart text-danger"></i>
+                            </p>
+                            <p style="text-align: justify;">Cám ơn dịch vụ Love Of You, dịch vụ đám cưới trọn gói của bạn quá tốt. Đám cưới mình rất đẹp và đúng ý mình. Mình rất vui và hạnh phúc. Nhân viên thân thiện và rất tận tình tư vấn, ngày vui lại càng thêm vui.</p>
+                            <a href="~/DichVu/Index">
+                                <button>
+                                    <span>Read more</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <!-- end carosel imgs -->
+    </div>
+    <!-- End Happy Clients -->
+    <!-- The Best Bride Experience -->
+    <div class="reveal fade-bottom d-block container text-center" id="experience">
+        <h2 class="text-uppercase lineLeftRight">Khoảnh Khắc Tuyệt Vời</h2>
+        <div class="mt-3 mb-3">
+            <img src="~/images/decor.png" alt="decor" />
+        </div>
+        <p class="p-md-5 pt-md-0">
+            Những khoảnh khắc tuyệt vời của các cặp đôi lựa chọn dịch vụ chụp ảnh cưới của chúng tôi
+        </p>
+        <div id="grid-img">
+            <div class="grid-box grid-img-1">
+                <img src="~/images/1.jpg" class="w-100 h-100">
+            </div>
+            <div class="grid-box grid-img-2">
+                <img src="~/images/2.jpg" class="w-100 h-100">
+            </div>
+            <div class="grid-box grid-img-3">
+                <img src="~/images/3.jpg" class="w-100 h-100">
+            </div>
+            <div class="grid-box grid-img-4">
+                <img src="~/images/4.jpg" class="w-100 h-100">
+            </div>
+            <div class="grid-box grid-img-5">
+                <img src="~/images/5.jpg" class="w-100 h-100">
+            </div>
+            <div class="grid-box grid-img-6">
+                <img src="~/images/6.jpg" class="w-100 h-100">
+            </div>
+            <div class="grid-box grid-img-7">
+                <img src="~/images/7.jpg" class="w-100 h-100">
+            </div>
+            <div class="grid-box grid-img-8">
+                <img src="~/images/8.jpg" class="w-100 h-100">
+            </div>
+
+            <div class="grid-box grid-img-11">
+                <img src="~/images/1.jpg" class="w-100 h-100">
+            </div>
+            <div class="grid-box grid-img-22">
+                <img src="~/images/2.jpg" class="w-100 h-100">
+            </div>
+            <div class="grid-box grid-img-33">
+                <img src="~/images/3.jpg" class="w-100 h-100">
+            </div>
+            <div class="grid-box grid-img-44">
+                <img src="~/images/4.jpg" class="w-100 h-100">
+            </div>
+            <div class="grid-box grid-img-55">
+                <img src="~/images/5.jpg" class="w-100 h-100">
+            </div>
+            <div class="grid-box grid-img-66">
+                <img src="~/images/6.jpg" class="w-100 h-100">
+            </div>
+            <div class="grid-box grid-img-77">
+                <img src="~/images/7.jpg" class="w-100 h-100">
+            </div>
+            <div class="grid-box grid-img-88">
+                <img src="~/images/8.jpg" class="w-100 h-100">
+            </div>
+        </div>
+    </div>
+    <!--End  The Best Bride Experience -->
+    <!-- top dress -->
+    <div id="hot-dress" class="reveal fade-bottom container mt-5 mb-5">
+        <div class="text-center position-relative mt-5 mb-5">
+            <h1 class="position-relative w-100">
+                WHAT'S HOT
+            </h1>
+            <div class="mt-4 mb-3">
+                <img src="~/images/decor.png" alt="decor" />
+            </div>
+            <p class="position-absolute text-bg-text w-100">WHAT'S HOT</p>
+            <p style="font-family: tahoma;" class="mt-3">Những bộ sare được nhiều khách hàng lựa chọn nhiều nhất của cửa hàng chúng tôi</p>
+        </div>
+
+        <div class="pt-2 row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
+            @foreach (var e in Model)
+            {
+                <!-- img 1 -->
+                <div class="col position-relative">
+                    <div class="w-100" style="height: 450px;">
+                        <img src="~/images/AnhPhanLoai/MauVayCuoi/@e.hinhAnhs[0]" class="w-100 h-100" style="object-fit:cover;" />
+                        <img src="~/images/AnhPhanLoai/MauVayCuoi/@e.hinhAnhs[1]" class="w-100 h-100" style="object-fit:cover;"/>
+                        <div class="pannel-hot-dress">
+                            <ul class="none-liststyle">
+                                <li>
+                                    @Html.ActionLink("Add to cart", "ThemGioHang", "SanPham", new { maSP = e.maDo, url = @Request.Url.ToString() }, new { @class = "text-uppercase p-2" })
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <i class="fa-regular fa-share-from-square"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("ChiTietSanPham","SanPham",new { @maSP = e.maDo })">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-dress text-center mt-4 ps-3 pe-3">
+                        <p style="color: #717171;">@e.theLoai</p>
+                        <h5>@e.tenDoCuoi</h5>
+                        <p class="text-danger" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">@e.Gia.ToString("#,0") VNĐ</p>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="mt-3 text-center">
+            <a href="~/SanPham/Index">
+                <button class="btn-style-pink bg-transparent border-pink text-dark" style="padding: 10px 60px; ">
+                    <span class="text-uppercase">More Products</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </a>
+        </div>
+    </div>
+    <!-- end top dress -->
+    <!-- take a photo -->
+    <div id="comboTakePhoto" class="reveal fade-bottom container d-block text-center">
+        <h2 class="text-uppercase lineLeftRight">Dịch Vụ Chụp Ảnh Cưới</h2>
+        <div class="mt-3 mb-3">
+            <img src="~/images/decor.png" alt="decor" />
+        </div>
+        <p style="font-family: tahoma;">
+            Những dịch vụ được khách hàng ưa chuộng
+        </p>
+        <div class="row row-cols-1 row-cols-lg-3 text-start mt-5">
+            <!-- card 1 -->
+            <div class="col">
+                <div class="card w-100">
+                    <img class="card-img-top" src="~/images/2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">5,000,000 VNĐ</h5>
+                        <h6 class="text-danger text-uppercase">
+                            Trang Phục
+                        </h6>
+                        <p class="card-text fst-italic">
+                            Thuê váy cưới Và vest cho cô dâu và chú rể với năm bộ thay phiên cho buổi tiệc thêm đặc sắc
+                        </p>
+                    </div>
+                    <ul>
+                        <li>Sare năm mẫu lựa chon</li>
+                        <li>Vest năm mẫu lựa chọn</li>
+                        <li>Trang điểm miễn phí</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="/DichVu/Index" class="card-link">
+                            Xem chi tiết
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="col">
+                <div class="card w-100">
+                    <img class="card-img-top" src="~/images/3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">15,000,000 VNĐ</h5>
+                        <h6 class="text-success text-uppercase">
+                            Trọn Gói
+                        </h6>
+                        <p class="card-text fst-italic">Thuê váy cưới,  vest với đa dạng mẫu các màu sắc không giới hạn lựa chọn cùng combo chụp ảnh cưới ngoại cảnh A-Z</p>
+                    </div>
+                    <ul>
+                        <li>Sare không giới hạn mẫu</li>
+                        <li>Vest không giới hạn mẫu</li>
+                        <li>Chụp ngoại cảnh A-Z</li>
+                        <li>Trang điểm miễn phí</li>
+                        <li>Quay phim kỷ niệm</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="/DichVu/Index" class="card-link">
+                            Xem chi tiết
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="col">
+                <div class="card w-100">
+                    <img class="card-img-top w-100 h-50" style="object-fit:cover;" src="~/images/4.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">5,000,000 VNĐ</h5>
+                        <h6 class="text-danger text-uppercase">
+                            Album Ảnh
+                        </h6>
+                        <p class="card-text">Dịch vụ chụp ảnh cưới cho cô dâu chú rể với ngoại cảnh được hỗ trợ từ A-Z lưu lại khoảnh khắc đáng nhớ.</p>
+                    </div>
+                    <ul>
+                        <li>Chụp ngoại cảnh A-Z</li>
+                        <li>Trang điểm miễn phí</li>
+                        <li>Quay phim kỷ niệm</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="/DichVu/Index" class="card-link">
+                            Xem chi tiết
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end combo take a photo -->
+    <!-- about our services -->
+    <div style="font-family: 'Exo', sans-serif;" class="reveal fade-bottom d-block container-fluid p-0 numbers reveal">
+        <div id="about-services" class="w-100 d-flex justify-content-center align-items-center h-100">
+            <div class="container row row-cols-1 row-cols-lg-2">
+                <div class="col">
+                    <table style="font-family: 'Exo', sans-serif;">
+                        <tr>
+                            <td>
+                                <span class="value">10</span>
+                                <br />
+                                <p>Năm Kinh<br />nghiệm</p>
+                            </td>
+                            <td>
+                                <span class="value">6000</span>
+                                <br />
+                                <p>Cặp đội được gắn kết</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="value">3</span>
+                                <br />
+                                Showroom - Office
+                            </td>
+                            <td>
+                                <span class="value">8</span>
+                                <br />
+                                Bộ phận phối hợp
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="value">32</span>
+                                <br />
+                                Thành viên chính thức
+                            </td>
+                            <td>
+                                <span class="value">5</span>
+                                <br />
+                                Gần trung tâm Thành phố
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="col text-white ps-lg-5 text-center position-relative">
+                    <div>
+                        <h2 class="text-center mb-5 fw-bold text-uppercase position-relative" style="font-family: Arial;">
+                            Về Chúng tôi
+                        </h2>
+                        <p>
+                            Love Of You là công ty TNHH Một Thành Viên chuyên cung cấp dịch vụ về đồ cưới và dựng cảnh cho các bức ảnh, chúng tôi luôn mong muốn đến cho quý khách hàng một trải nghiệm tuyệt vời khi sử dụng dịch vụ từ chúng tôi, với phương châm Uy Tín - Chân Thành - Chất Lượng
+                        </p>
+                        <div>
+                            <a href="~/SanPham/Index">
+                                <button class="btn-style-pink">
+                                    <span>Read More</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </a>
+                            <a href="~/Contact/Index">
+                                <button class="ms-2 btn-style-pink bg-transparent border-pink">
+                                    <span>Details</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about our services -->
+</content>
+
+<!-- Contact with us -->
+<div id="contact-with-us" class="reveal fade-bottom container shadow">
+    <div class="w-100 h-100 d-flex align-items-center">
+        <div class="row row-cols-1 w-100 text-center">
+            <div class="col col-lg-4">
+                <h2 class="p-0 m-0 pt-2">Stay in touch with us</h2>
+            </div>
+            <div class="col col-lg-5 form-group pe-md-5 ps-sm-5 pe-sm-5">
+                <input type="text" name="email-contact" id="email-contact" placeholder="Example@gmail.com" class="w-100" />
+            </div>
+            <div class="col col-lg-3 form-group">
+                <input onclick="sendMail()" type="submit" value="SUBSCRIBE" name="sutmit-email-contact" class="btn btn-style-pink text-dark border-pink w-75" id="sutmit-email-contact">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end contact with us -->
+<script type="text/javascript">
+    function sendMail() {
+        $.ajax({
+            type: "Post",
+            url: "/Home/SendMailToUser",
+            success: function (data) {
+                if(data == true)
+                    alert("success")
+                else
+                    alert("fail")
+            }
+        })
+    }
+</script>

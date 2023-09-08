@@ -1,0 +1,61 @@
+﻿@model List<WeddingsWebsite.Models.DOCUOI>
+@{
+    ViewBag.Title = "Quản Lý Sản Phẩm";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- ============================================================== -->
+    <!-- Start Page Content -->
+    <!-- ============================================================== -->
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="white-box">
+                <h3 class="box-title">Quản Lý Sản Phẩm</h3>
+                <div>
+                    <table class="table text-nowrap w-100">
+                        <thead>
+                            <tr>
+                                <th class="border-top-0">#</th>
+                                <th class="border-top-0">Mã Đồ</th>
+                                <th class="border-top-0">Tên Đồ</th>
+                                <th class="border-top-0">Số Lượng Tồn</th>
+                                <th class="border-top-0">Nhà Thiết Kế</th>
+                                <th class="border-top-0">Giá Bán</th>
+                                <th class="border-top-0"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{ int stt = 0;}
+                            @foreach (var e in Model)
+                            {
+                                stt += 1;
+                            <tr>
+                                <td>@stt</td>
+                                <td>@e.MASP</td>
+                                <td>@e.TENSP</td>
+                                <td>@e.SOLUONGTON</td>
+                                <td>@e.NHATHIETKE.TENNTK</td>
+                                <td>@double.Parse(e.GIABAN.ToString()).ToString("#,0")</td>
+                                <td>@Html.ActionLink("Xóa","Xoa","Dashboard",new { @maSP=e.MASP, url=Request.Url.ToString() }, null)</td>
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End PAge Content -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Right sidebar -->
+    <!-- ============================================================== -->
+    <!-- .right-sidebar -->
+    <!-- ============================================================== -->
+    <!-- End Right sidebar -->
+    <!-- ============================================================== -->
+</div>
+
+

@@ -1,0 +1,57 @@
+﻿@model List<WeddingsWebsite.Models.NHATHIETKE>
+@{
+    ViewBag.Title = "Nhập Sản Phẩm";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+    var tts = Session["thongtin"] as List<WeddingsWebsite.Models.THONGTINCT>;
+}
+
+<h2>Nhập Sản Phẩm</h2>
+<div class="container">
+    @using (Html.BeginForm("ThemSanPham", "Dashboard", FormMethod.Post)) { 
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col">
+            <div class="form-group w-100">
+                <label class="text-black mb-1" for="tenSP">Tên Sản Phẩm</label>
+                <input type="text" name="tenSP" id="tenSP" class="form-control" required />
+            </div>
+            <div class="form-group w-100 mt-3">
+                <label class="text-black mb-1" for="soluong">Số Lượng</label>
+                <input type="number" max="9999" min="1" name="soluong" id="soluong" class="form-control" required />
+            </div>
+            <div class="form-group w-100">
+                <label for="ntk">Nhà Thiết Kế</label>
+                <select class="form-control" name="ntk" id="ntk">
+                    @foreach (var e in Model)
+                    {
+                        <option value="@e.MANTK">@e.TENNTK</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-group w-100">
+                <label class="text-black mb-1" for="gia">Giá Bán</label>
+                <input type="number" max="99999999999" min="0" name="gia" id="gia" class="form-control" required />
+            </div>
+            <div class="form-group w-100 mt-3">
+                <label class="text-black mb-1" for="mota">Mô Tả</label>
+                <input type="text" name="mota" id="mota" class="form-control" required />
+            </div>
+            <div class="form-group w-100">
+                <label for="matt">Thông Tin Sản Phẩm</label>
+                <select class="form-control" name="matt" id="matt">
+                    @foreach (var e in tts)
+                    {
+                        <option value="@e.MATT">@e.CHATLIEU + @e.KICHTHUOC + @e.MAUSAC</option>
+                    }
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-end mt-5">
+        <button class="btn btn-orange w-25" type="submit">Thêm Sản Phẩm</button>
+    </div>
+    }
+
+</div>
+

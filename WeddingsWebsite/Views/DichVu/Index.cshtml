@@ -1,0 +1,65 @@
+﻿@model List<WeddingsWebsite.Models.DichVu_C>
+@{
+    ViewBag.Title = "Dịch Vụ Chụp Ảnh";
+    Layout = "~/Views/Shared/_SanPhamLayout.cshtml";
+}
+
+<script>
+    //active menu
+    const nav = document.querySelector(".navbar-nav .nav-item:nth-child(4) a")
+    nav.classList.add("active")
+</script>
+<style>
+    .box-img > div{
+        overflow:hidden;
+        height: 500px;
+    }
+    .box-img > div img {
+        transform: scale(1) rotate(0deg);
+        transition: 2s;
+    }
+    .box-img:hover > div img {
+        transform: scale(1.2) rotate(5deg);
+        transition: 2s;
+    }
+</style>
+
+<h2 class="text-uppercase text-center mb-5">Dịch Vụ Chụp Ảnh</h2>
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        @foreach (var e in Model)
+        {
+        <div class="col box-img">
+            
+            <div class="w-100 rounded" style="height: 300px;">
+                <a href="@Url.Action("ChiTietDV", "DichVu",new { MaDV = e.MaDV })">
+                    <img src="~/images/AnhPhanLoai/StudioChupAnh/@e.hinhAnhs[0]" class="w-100 h-100 rounded" style="object-fit: cover;" />
+                </a>
+            </div>
+            <div class="ps-2 pe-2 mt-2 h-50 pb-2 mb-5">
+                <a href="@Url.Action("ChiTietDV", "DichVu",new { MaDV = e.MaDV })">
+                    <h5 class="mt-2">@e.tenDV</h5>
+                </a>
+                <ul>
+                    @{
+                        string[] str = e.moTa.Split('.');
+                        for (int i = 0; i < str.Length; i++)
+                        {
+                            if (str[i] != string.Empty)
+                            {
+                                <li>@str[i]</li>
+                            }
+                        }
+                    }
+                </ul>
+                <p class="text-danger fw-bold text-end pe-2">@e.gia.ToString("#,0 VNĐ")</p>
+                <div class="d-flex justify-content-end">
+                    @Html.ActionLink("Thêm Vào Giỏ", "ThemGioHangDV", "SanPham", new { maDV = e.MaDV, url = @Request.Url.ToString() }, new { @class = "btn-style-pink mt-1" })
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</div>
+
+

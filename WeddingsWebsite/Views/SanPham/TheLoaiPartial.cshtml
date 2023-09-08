@@ -1,0 +1,14 @@
+﻿@model List<WeddingsWebsite.Models.THELOAI>
+<h5>Thể Loại</h5>
+
+<ul style="list-style: none;" class="p-0 ps-3">
+    @foreach (var e in Model)
+    {
+        <li class="nav-link">
+            <a href="@Url.Action("DanhSachSanPhamTheo","SanPham", new { filter=e.TENTL})">
+                @e.TENTL
+            </a>
+        </li>
+        
+    }
+</ul>

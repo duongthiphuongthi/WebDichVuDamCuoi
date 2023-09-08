@@ -1,0 +1,61 @@
+﻿@model WeddingsWebsite.Models.DichVu_C
+
+@{
+    ViewBag.Title = "ChiTietDV";
+    Layout = "~/Views/Shared/_SanPhamLayout.cshtml";
+}
+
+<style>
+    #zoomCursor:hover {
+        cursor: zoom-in;
+    }
+</style>
+
+<h2 class="text-center mb-5 fw-bold">CHI TIẾT DỊCH VỤ</h2>
+<div class="container shadow rounded" style="height: 650px;">
+    <div class="row row-cols-1 row-cols-lg-2 h-100 w-100 m-0">
+        <div class="col col-md-5 col-lg-5 ps-md-0 pe-md-0 pb-2 pt-2 h-100">
+            <div id="zoomCursor" class="swiper SwiperDetailsHotDress w-100 h-100">
+                <div class="swiper-wrapper containerImagesDress w-100 h-100">
+                    @foreach (var e in Model.hinhAnhs)
+                    {
+                        <div class="swiper-slide h-100 w-100">
+                            <div class="swiper-zoom-container">
+                                <img src="~/images/AnhPhanLoai/MauVayCuoi/@e" class="w-100 h-100 rounded" style="object-fit:cover;" />
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <div class="col col-md-7 col-lg-7 contentBoxDetailsDress p-md-0 ps-md-5 pe-md-5">
+            <div class="mt-5 ps-lg-3">
+                <h2 class="mb-3 pt-5">@Model.tenDV</h2>
+                <p style="text-align: justify;" class="pe-3">
+                    @{
+                        string[] str = Model.moTa.Split('+','.');
+                        <ul>
+                            @foreach(var e in str)
+                            {
+                                if (e != string.Empty)
+                                {
+                                    <li>
+                                        @e
+                                        
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    } 
+
+                </p>
+                <h5 class="text-danger mb-3">@Model.gia.ToString("0,0") VNĐ</h5>
+            </div>
+            <div class="ps-lg-3">
+                @Html.ActionLink("ADD TO CART", "ThemGioHangDV", "SanPham", new { @maDV = Model.MaDV, url = Request.Url.ToString() }, new { @class = "btn-style-pink" })
+            </div>
+        </div>
+    </div>
+</div>

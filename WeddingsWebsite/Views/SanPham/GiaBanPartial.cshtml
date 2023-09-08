@@ -1,0 +1,27 @@
+﻿
+@using (Html.BeginForm("LocTheoGia", "SanPham", FormMethod.Post))
+{
+    <h5>Giá Bán</h5>
+    <div class="price-input">
+        <div class="field">
+            <span>Min</span>
+            <input type="number" name="min" class="input-min" value="1000000">
+        </div>
+        <div class="separator">-</div>
+        <div class="field">
+            <span>Max</span>
+            <input type="number" name="max" class="input-max" value="50000000">
+        </div>
+    </div>
+    <div class="slider">
+        <div class="progress"></div>
+    </div>
+    <div class="range-input">
+        <input type="range" class="range-min" min="0" max="100000000" value="20000000" step="1000000">
+        <input type="range" class="range-max" min="0" max="100000000" value="80000000" step="1000000">
+    </div>
+    <div class="w-100 d-flex justify-content-end mt-3">
+        <button type="submit" name="gia" class="btn-style-pink border-pink w-50">Lọc</button>
+    </div>
+
+}

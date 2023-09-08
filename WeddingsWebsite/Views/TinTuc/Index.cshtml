@@ -1,0 +1,170 @@
+﻿@model List<WeddingsWebsite.Models.TinTuc_C>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_SanPhamLayout.cshtml";
+    var KhuyenMai = Model.Where(t => t.TheLoai.Trim().Equals("Khuyến mãi")).ToList();
+    var CamNang = Model.Where(t => t.TheLoai.Trim().Equals("Cẩm nang cưới")).ToList();
+    var TinTucMoi = Model.Take(6).ToList();
+}
+
+<script>
+    //active menu
+    const navTinTuc = document.querySelector(".navbar-nav .nav-item:nth-child(2) a")
+    navTinTuc.classList.add("active")
+</script>
+
+<style>
+    .btn-see{
+        position:absolute;
+        bottom: 0;
+        right: 20px;
+    }
+</style>
+
+<h2 class="text-center text-uppercase mb-5 mt-2">Tin Tức</h2>
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col col-12 col-md-8 card shadow border-0">
+            <!-- Navbar -->
+            <ul class="nav-news nav nav-tabs w-100 pt-4 mb-4">
+                <li class="nav-item">
+                    <a class="nav-link active" href="javascript:void(0)">Tin Tức</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Khuyến Mãi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Cẩm Nang Cưới</a>
+                </li>
+            </ul>
+
+            <!-- All Post -->
+            <div id="News-All">
+                @foreach (var e in Model)
+                {
+                    <div class="row row-cols-1 row-cols-md-2 mt-2 mb-2 d-flex align-items-center position-relative">
+                        <div class="col col-12 col-md-4">
+                            <div class="w-100 h-100">
+                                <img src="~/images/AnhPhanLoai/TinTuc/@e.hinhAnhs[0]" class="w-100" height="300px" style="object-fit:cover;" />
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-md-8 pb-5">
+                            <h4 class="text-uppercase">@e.TieuDe</h4>
+                            <sup class="text-black-50">Ngày đăng: @e.NgayDang.ToString("d")</sup>
+                            <hr style="width: 10%; border-width: 3px; margin:0; margin-bottom: 15px;" />
+                            <p style="text-align:justify;">
+                                @e.MoTa
+                            </p>
+                            @Html.ActionLink("Xem Chi Tiết", "ChiTietTinTuc", "TinTuc", new { @maTT = e.MaTin }, new { @class = "btn-style-pink mt-2 btn-see" })
+                        </div>
+                    </div>
+                    <hr class="mb-2 mt-2" style="border-color: #f3969b; border-width:2px;" />
+                }
+            </div>
+            <!-- Khuyen Mai Post -->
+            <div id="News-KhuyenMai">
+                @foreach (var e in KhuyenMai)
+                {
+                    <div class="row row-cols-1 row-cols-md-2 mt-2 mb-2 d-flex align-items-center position-relative">
+                        <div class="col col-12 col-md-4">
+                            <div class="w-100 h-100">
+                                <img src="~/images/AnhPhanLoai/TinTuc/@e.hinhAnhs[0]" class="w-100" height="300px" style="object-fit:cover;" />
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-md-8 pb-5">
+                            <h4 class="text-uppercase">@e.TieuDe</h4>
+                            <sup class="text-black-50">Ngày đăng: @e.NgayDang.ToString("d")</sup>
+                            <hr style="width: 10%; border-width: 3px; margin:0; margin-bottom: 15px;" />
+                            <p style="text-align:justify;">
+                                @e.MoTa
+                            </p>
+                            @Html.ActionLink("Xem Chi Tiết", "ChiTietTinTuc", "TinTuc", new { @maTT = e.MaTin }, new { @class = "btn-style-pink mt-2 btn-see" })
+                        </div>
+                    </div>
+                    <hr class="mb-2 mt-2" style="border-color: #f3969b; border-width:2px;" />
+                }
+            </div>
+            <!-- Cam Nang Post -->
+            <div id="News-CamNang">
+                @foreach (var e in CamNang)
+                {
+                    <div class="row row-cols-1 row-cols-md-2 mt-2 mb-2 d-flex align-items-center position-relative">
+                        <div class="col col-12 col-md-4">
+                            <div class="w-100 h-100">
+                                <img src="~/images/AnhPhanLoai/TinTuc/@e.hinhAnhs[0]" class="w-100" height="300px" style="object-fit:cover;" />
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-md-8 pb-5">
+                            <h4 class="text-uppercase">@e.TieuDe</h4>
+                            <sup class="text-black-50">Ngày đăng: @e.NgayDang.ToString("d")</sup>
+                            <hr style="width: 10%; border-width: 3px; margin:0; margin-bottom: 15px;" />
+                            <p style="text-align:justify;">
+                                @e.MoTa
+                            </p>
+                            @Html.ActionLink("Xem Chi Tiết", "ChiTietTinTuc", "TinTuc", new { @maTT = e.MaTin }, new { @class = "btn-style-pink mt-2 btn-see" })
+                        </div>
+                    </div>
+                    <hr class="mb-2 mt-2" style="border-color: #f3969b; border-width:2px;" />
+                }
+            </div>
+        </div>
+  
+        <!-- Tin Tức Mới -->
+        <div class="col col-12 col-md-4 mt-5 mt-md-0">
+            <h4 class="text-center pt-4 pt-sm-0 pb-4">Tin Tức Mới</h4>
+            @foreach (var e in TinTucMoi)
+            {
+                <div class="row row-cols-2 d-flex justify-content-center align-items-center mb-4">
+                    <div class="col col-4" style="height: 100px;">
+                        <div class="w-100 h-100">
+                            <img src="~/images/AnhPhanLoai/TinTuc/@e.hinhAnhs[0]" class="w-100 h-100" style="object-fit:cover;" />
+                        </div>
+                    </div>
+                    <div class="col col-8">
+                        <h6 class="text-uppercase">@e.TieuDe</h6>
+                        <sup class="text-black-50">Ngày đăng: @e.NgayDang.ToString("d")</sup>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<script>
+    $("#News-KhuyenMai").hide()
+    $("#News-CamNang").hide()
+    const navNews = document.querySelectorAll(".nav-news li a");
+    //change active button tab
+    function removeActiveAll() {
+        navNews.forEach((e) => { if (e.classList.contains("active")) e.classList.remove("active") })
+    }
+    navNews.forEach(e => e.addEventListener("click", () => {
+        removeActiveAll()
+        if (!e.classList.contains("active")) {
+            e.classList.add("active")
+        }
+        })
+    )
+    const btnNewsAll = document.querySelector(".nav-news li:first-child a");
+    const btnKhuyenMai = document.querySelector(".nav-news li:nth-child(2) a")
+    const btnCamNang = document.querySelector(".nav-news li:last-child a")
+
+    btnNewsAll.addEventListener("click", () => {
+        $("#News-KhuyenMai").hide()
+        $("#News-CamNang").hide()
+        $("#News-All").show()
+    })
+    btnKhuyenMai.addEventListener("click", () => {
+        $("#News-All").hide()
+        $("#News-CamNang").hide()
+        $("#News-KhuyenMai").show()
+    })
+    btnCamNang.addEventListener("click", () => {
+        $("#News-All").hide()
+        $("#News-KhuyenMai").hide()
+        $("#News-CamNang").show()
+    })
+</script>

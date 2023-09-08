@@ -1,0 +1,180 @@
+﻿@using WeddingsWebsite.Models;
+@{
+    ViewBag.Title = "DashBoard";
+    ViewBag.tabTitle = "Dashboard";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+    List<LichSuBan> lo = Session["lichsuBan"] as List<LichSuBan>;
+    List<LichSuBan> lo2 = Session["lichnhap"] as List<LichSuBan>;
+}
+
+<!-- ============================================================== -->
+<!-- Three charts -->
+<!-- ============================================================== -->
+<div class="row justify-content-center">
+    <div class="col-lg-4 col-md-12">
+        <div class="white-box analytics-info">
+            <h3 class="box-title">Số Lượng Truy Cập</h3>
+            <ul class="list-inline two-part d-flex align-items-center mb-0">
+                <li>
+                    <div id="sparklinedash">
+                        <canvas width="67" height="30"
+                                style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas>
+                    </div>
+                </li>
+                <li class="ms-auto"><span class="counter text-success">659</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-12">
+        <div class="white-box analytics-info">
+            <h3 class="box-title">Số lượng sản phẩm bán</h3>
+            <ul class="list-inline two-part d-flex align-items-center mb-0">
+                <li>
+                    <div id="sparklinedash2">
+                        <canvas width="67" height="30"
+                                style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas>
+                    </div>
+                </li>
+                <li class="ms-auto"><span class="counter text-purple">869</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-12">
+        <div class="white-box analytics-info">
+            <h3 class="box-title">Số Lượng Nhập Hàng</h3>
+            <ul class="list-inline two-part d-flex align-items-center mb-0">
+                <li>
+                    <div id="sparklinedash3">
+                        <canvas width="67" height="30"
+                                style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas>
+                    </div>
+                </li>
+                <li class="ms-auto">
+                    <span class="counter text-info">911</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- ============================================================== -->
+<!-- PRODUCTS YEARLY SALES -->
+<!-- ============================================================== -->
+<div class="row">
+    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+        <div class="white-box">
+            <h3 class="box-title">Biểu Đồ Doanh Thu Bán Hàng</h3>
+            <!--chartis chart-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+            <!-- chartJS -->
+                        
+            <div>
+                <canvas id="myChart" style="width:100%;"></canvas>
+                <script type="text/javascript">
+                    var xValues = @ViewBag.arr2 ;
+                    var yValues = @ViewBag.arr
+
+                    const labels = xValues
+                    const data = {
+                        labels: labels,
+                        datasets: [
+                            {
+                                label: "Số lượng bán",
+                                data: yValues,
+                                backgroundColor: "rgba(255, 99, 132, 0.2)",
+                                borderColor: "rgb(255, 99, 132)",
+                                borderWidth: 1,
+                            },
+                        ],
+                    };
+
+                    new Chart("myChart", {
+                        type: "bar",
+                        data: data,
+                        options: {
+                            legend: { display: false },
+                            title: {
+                                display: true
+                            },
+                        },
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ============================================================== -->
+<!-- RECENT SALES -->
+<!-- ============================================================== -->
+<div class="row">
+    <!-- lịch sử mua bán -->
+    <div class="col-md-6 col-lg-6 col-sm-12">
+        <div class="white-box">
+            <div class="d-md-flex mb-3">
+                <h3 class="box-title mb-0">Lịch Sử Mua Bán</h3>
+            </div>
+            <div class="table-responsive">
+                <table class="table no-wrap">
+                    <thead>
+                        <tr>
+                            <th class="border-top-0">#</th>
+                            <th class="border-top-0">Mã Xuất</th>
+                            <th class="border-top-0">Tên Đồ Cưới</th>
+                            <th class="border-top-0">Ngày Xuất</th>
+                            <th class="border-top-0">Số Lượng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{ int stt = 0;}
+                        @foreach (var i in lo)
+                        {
+                            stt += 1;
+                            <tr>
+                                <td>@stt</td>
+                                <td class="txt-oflo">@i.MaHD</td>
+                                <td>@i.tenSP</td>
+                                <td class="txt-oflo">@i.ngatxuat.ToString("d")</td>
+                                <td><span class="text-success">@i.sl</span></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- lịch sử nhập hàng -->
+    <div class="col-md-6 col-lg-6 col-sm-12">
+        <div class="white-box">
+            <div class="d-md-flex mb-3">
+                <h3 class="box-title mb-0">Lịch Sử Nhập Hàng</h3>
+            </div>
+            <div class="table-responsive">
+                <table class="table no-wrap">
+                    <thead>
+                        <tr>
+                            <th class="border-top-0">#</th>
+                            <th class="border-top-0">Mã Nhập</th>
+                            <th class="border-top-0">Tên Đồ Cưới</th>
+                            <th class="border-top-0">Ngày Nhập</th>
+                            <th class="border-top-0">Số Lượng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{ int stt2 = 0;}
+                        @foreach (var i in lo2)
+                        {
+                            stt2 += 1;
+                            <tr>
+                                <td>@stt2</td>
+                                <td class="txt-oflo">@i.MaHD</td>
+                                <td>@i.tenSP</td>
+                                <td class="txt-oflo">@i.ngatxuat.ToString("d")</td>
+                                <td><span class="text-success">@i.sl</span></td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

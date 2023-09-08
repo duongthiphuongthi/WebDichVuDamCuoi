@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Liên Hệ";
+    Layout = "~/Views/Shared/_SanPhamLayout.cshtml";
+}
+<script>
+    //active menu
+    const nav = document.querySelector(".navbar-nav .nav-item:nth-child(5) a")
+    nav.classList.add("active")
+</script>
+<h2 class="text-uppercase text-center mb-2">Liên Hệ</h2>
+<p class="text-center mb-5">Hãy gửi thông tin với chúng tôi nếu bạn cần chúng tôi giúp hoặc hẹn lịch tư vấn nhé !</p>
+<div class="container pb-5 pt-5 shadow rounded">
+    <div class="row row-cols-2 pt-3 d-flex align-items-center">
+        <div class="col col-4 text-center" style="border-right: 1px solid #f3969b;">
+            <h5>Địa Chỉ Studio</h5>
+            <p>140 Lê Trọng Tấn, Tân Phú, TP. Hồ Chí Minh</p>
+            <br />
+            <h5>Thời Gian Hoạt Động</h5>
+            <p>
+                Thứ 2 - Thứ 6:<br />8:00 AM - 16:00 PM
+                <br />
+                Thứ 7<br />8:00 AM - 11:00 AM
+            </p>
+            <br />
+            <h5>Thông Tin Liên Hệ</h5>
+            <p>
+                1988 108 769<br />
+                loveofyou@gmail.com
+            </p>
+        </div>
+        <!-- Form contact -->
+        <div class="col col-8 ps-5 pe-5">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <div class="form-group w-100">
+                        <label class="text-black mb-1" for="name">Họ Và Tên</label>
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Họ Và Tên" required />
+                    </div>
+                    <div class="form-group w-100 mt-3">
+                        <label class="text-black mb-1" for="email">Email</label>
+                        <input type="text" name="email" id="email" class="form-control" placeholder="Email của bạn" required />
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group w-100">
+                        <label class="text-black mb-1" for="phone">Số Điện Thoại</label>
+                        <input type="text" name="phone" id="email-login" class="form-control" placeholder="089xxxx" required />
+                    </div>
+                    <div class="form-group w-100 mt-3">
+                        <label class="text-black mb-1" for="date">Ngày Hẹn</label>
+                        <input type="date" name="date" id="date" class="form-control" placeholder="Ngày Hẹn" required />
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4 form-group">
+                <textarea rows="8" class="w-100 form-control" id="Description" name="Description" placeholder="Lời nhắn của bạn ..." rows="2"></textarea>
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+                <input type="submit" value="Gửi" class="btn-style-pink w-50"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,95 @@
+﻿@model WeddingsWebsite.Models.TinTuc_C
+@{
+    ViewBag.Title = "ChiTietTinTuc";
+    Layout = "~/Views/Shared/_SanPhamLayout.cshtml";
+}
+
+<script>
+    //active menu
+    const navTinTuc = document.querySelector(".navbar-nav .nav-item:nth-child(2) a")
+    navTinTuc.classList.add("active")
+</script>
+<style>
+    .swiper {
+        width: 100%;
+        height: 650px;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    .swiper {
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
+<h2 class="text-uppercase text-center mb-5">Chi Tiết Tin Tức</h2>
+@if (Model == null)
+{
+    <p class="text-center text-danger">Không tìm thấy !</p>
+}
+<div class="container">
+    <div class="shadow mb-5 position-relative">
+        <span class="position-absolute fw-bold text-center text-white" style="width:80px; font-size: 25px; height: 80px; z-index:99; background-color: #f3969b; top:50px; left: -20px;">
+            @Model.NgayDang.ToString("dd/MM").Split('/')[0]<br />
+            <font class="m-0 p-0" style="border-top:1px solid black;" size="3">Th @Model.NgayDang.ToString("dd/MM").Split('/')[1]</font>
+        </span>
+        <div class="swiper mySwiper3">
+            <div class="swiper-wrapper">
+                @foreach (var e in Model.hinhAnhs)
+                {
+                    <div class="swiper-slide">
+                        <img src="~/images/AnhPhanLoai/TinTuc/@e" class="w-100 h-100" style="object-fit:contain;" />
+                    </div>
+                }
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <div>
+        <h4>@Model.TieuDe</h4>
+        <hr style="border-color: #f3969b; border-width: 5px; width:10%;" class="m-0 mt-2 mb-5" />
+        <p>@Model.NoiDung</p>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+    const swiper3 = new Swiper(".mySwiper3", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>

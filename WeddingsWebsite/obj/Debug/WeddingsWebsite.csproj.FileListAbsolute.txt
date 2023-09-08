@@ -1,0 +1,237 @@
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\WeddingsWebsite.dll.config
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\WeddingsWebsite.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\WeddingsWebsite.pdb
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\csc.exe
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\csc.exe.config
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\csc.rsp
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\csi.exe
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\csi.exe.config
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\csi.rsp
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\Microsoft.Managed.Core.targets
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.AppContext.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Collections.Immutable.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Console.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Globalization.Calendars.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.IO.Compression.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.IO.FileSystem.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Net.Http.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Net.Sockets.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Reflection.Metadata.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.ValueTuple.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Xml.XmlDocument.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Xml.XPath.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\vbc.exe
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\vbc.exe.config
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\vbc.rsp
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\VBCSCompiler.exe
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\roslyn\VBCSCompiler.exe.config
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\Microsoft.Web.Infrastructure.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\System.Web.Helpers.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\System.Web.Mvc.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\System.Web.Razor.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\System.Web.Webpages.Deployment.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\System.Web.Webpages.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\System.Web.Webpages.Razor.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\System.Web.Razor.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\System.Web.Webpages.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\System.Web.Webpages.Deployment.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\System.Web.Webpages.Razor.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\System.Web.Helpers.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\System.Web.Mvc.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\obj\Debug\WeddingsWebsite.csproj.CoreCompileInputs.cache
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\obj\Debug\WeddingsWebsite.csproj.CopyComplete
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\obj\Debug\WeddingsWebsite.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\obj\Debug\WeddingsWebsite.pdb
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\obj\Debug\WeddingsWebsite.csproj.AssemblyReference.cache
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\PagedList.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\PagedList.Mvc.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\PagedList.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite\WeddingsWebsite\bin\PagedList.Mvc.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\WeddingsWebsite.dll.config
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\WeddingsWebsite.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\WeddingsWebsite.pdb
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\csc.exe
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\csc.exe.config
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\csc.rsp
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\csi.exe
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\csi.exe.config
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\csi.rsp
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.Managed.Core.targets
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.AppContext.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Collections.Immutable.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Console.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Globalization.Calendars.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.IO.Compression.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.IO.FileSystem.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Net.Http.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Net.Sockets.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Reflection.Metadata.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.ValueTuple.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Xml.XmlDocument.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Xml.XPath.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\vbc.exe
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\vbc.exe.config
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\vbc.rsp
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\VBCSCompiler.exe
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\VBCSCompiler.exe.config
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\Microsoft.Web.Infrastructure.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\Newtonsoft.Json.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\PagedList.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\PagedList.Mvc.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Net.Http.Formatting.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Helpers.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Http.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Mvc.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Razor.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Webpages.Deployment.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Webpages.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Webpages.Razor.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\Newtonsoft.Json.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\PagedList.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\PagedList.Mvc.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Net.Http.Formatting.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Http.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Razor.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Webpages.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Webpages.Deployment.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Webpages.Razor.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Helpers.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Mvc.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\obj\Debug\WeddingsWebsite.csproj.AssemblyReference.cache
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\obj\Debug\WeddingsWebsite.csproj.CoreCompileInputs.cache
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\obj\Debug\WeddingsWebsite.csproj.CopyComplete
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\obj\Debug\WeddingsWebsite.dll
+E:\HUFI\Năm 3\Lập Trình Web\Đồ Án\Source Code\WeddingsWebsite - Copy\WeddingsWebsite\obj\Debug\WeddingsWebsite.pdb
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\WeddingsWebsite.dll.config
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\WeddingsWebsite.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\WeddingsWebsite.pdb
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\csc.exe
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\csc.exe.config
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\csc.rsp
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\csi.exe
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\csi.exe.config
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\csi.rsp
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.AppContext.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Console.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Net.Http.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\vbc.exe
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\vbc.exe.config
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\vbc.rsp
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\Newtonsoft.Json.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\PagedList.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\PagedList.Mvc.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Net.Http.Formatting.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Helpers.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Http.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Mvc.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Razor.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Webpages.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Webpages.Razor.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\Newtonsoft.Json.xml
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\PagedList.xml
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\PagedList.Mvc.xml
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Net.Http.Formatting.xml
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Http.xml
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Razor.xml
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Webpages.xml
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Webpages.Razor.xml
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Helpers.xml
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\System.Web.Mvc.xml
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\obj\Debug\WeddingsWebsite.csprojResolveAssemblyReference.cache
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\obj\Debug\WeddingsWebsite.dll
+C:\Users\HP\OneDrive\Máy tính\WeddingsWebsite - Copy\WeddingsWebsite - Copy\WeddingsWebsite\obj\Debug\WeddingsWebsite.pdb

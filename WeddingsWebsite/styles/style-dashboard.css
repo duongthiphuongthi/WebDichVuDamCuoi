@@ -1,0 +1,59 @@
+
+.topbar .top-navbar .navbar-header .navbar-brand .logo-icon {
+    height: 60px;
+}
+
+    .topbar .top-navbar .navbar-header .navbar-brand .logo-icon img {
+        width: 100% !important;
+        height: 100%;
+        object-fit: cover;
+    }
+
+#menuDashboard {
+    z-index: 999;
+}
+
+.logo-navbar {
+    width: 100%;
+    height: 50%;
+}
+
+    .logo-navbar img {
+        object-fit: cover;
+    }
+
+#btn-menu-mobile i {
+    font-size: 25px;
+    position: relative;
+    top: 0;
+    right: 8px;
+}
+
+    #btn-menu-mobile i:hover {
+        cursor: pointer;
+    }
+
+.ti-close::before {
+    font-size: 25px;
+}
+
+/* scrolltable rules */
+.table-responsive table {
+    margin-top: 20px;
+    max-height: 400px;
+    display: block;
+    overflow: auto;
+}
+
+/* reponsive */
+
+@media only screen and (max-width: 768px) {
+
+    #menuDashboard {
+        position: absolute;
+        top: 0 !important;
+        right: -1000px;
+        transition: .5s;
+        left: auto !important;
+    }
+}

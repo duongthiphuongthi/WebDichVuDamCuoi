@@ -1,0 +1,162 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title</title>
+    <!-- Custom CSS -->
+    <link href="~/plugins/bower_components/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css">
+    <link href="~/fontawesome/css/fa-solid.min.css" rel="stylesheet">
+    <!--Boostrap-->
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/styles/style-dashboard.css" rel="stylesheet">
+    <link href="~/styles/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader overflow-hidden" style="background-color:#fff4f5;">
+        <div class="d-flex overflow-hidden justify-content-center align-content-center align-items-center h-100">
+            <img src="~/images/heart.gif" class="overflow-hidden" style="object-fit:cover; width: 500px;" />
+        </div>
+    </div>
+    <!-- Main wrapper -->
+    <div id="main-wrapper" data-layout="vertical" data-sidebartype="full"
+         data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+        <!-- Topbar header -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div id="btn-menu-mobile" class="d-flex justify-content-end w-100 d-md-none" data-logobg="skin6">
+                    <i class=" nav-toggler fa-solid fa-bars text-white p-2"></i>
+                </div>
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
+                    <!-- Right side toggle and nav items -->
+                    <ul class="navbar-nav ms-auto d-flex align-items-center">
+                        <li>
+                            <a class="profile-pic" href="#">
+                                <i class="fa-solid fa-user me-2"></i><span class="text-white font-medium">Admin</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- End Topbar header -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <aside id="menuDashboard" class="left-sidebar position-fixed pt-0" data-sidebarbg="skin6">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <div class="navbar-header d-flex justify-content-end" data-logobg="skin6">
+                        <a style="position: relative; top:12px; right: 8px;" class="nav-toggler waves-effect waves-light text-dark d-block d-md-none"
+                           href="javascript:void(0)"><i class="ti-close"></i></a>
+                    </div>
+                    <!-- ============================================================== -->
+                    <div class="logo-navbar d-flex justify-content-center mt-2 mb-2">
+                        <img src="/images/logo2.png" class="w-75 h-100" />
+                    </div>
+                    <ul id="sidebarnav">
+                        <!-- User Profile-->
+                        <li class="sidebar-item pt-2">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="~/Dashboard/Index"
+                               aria-expanded="false">
+                                <i class="far fa-clock" aria-hidden="true"></i>
+                                <span class="hide-menu">Quản Lý</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="~/Dashboard/CaNhan"
+                               aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu">Thông Tin Cá Nhân</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="~/Dashboard/QLSanPham"
+                               aria-expanded="false">
+                                <i class="fa fa-table" aria-hidden="true"></i>
+                                <span class="hide-menu">Sản Phẩm</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="~/Dashboard/NhapSanPham"
+                               aria-expanded="false">
+                                <i class="fa fa-table" aria-hidden="true"></i>
+                                <span class="hide-menu">Thêm Sản Phẩm</span>
+                            </a>
+                        </li>
+                        <li class="text-center p-20 upgrade-btn">
+                            <a href="/Home/Index"
+                               class="btn d-grid btn-danger text-white">
+                                Back To Home Page
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb bg-white">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <h4 class="page-title">@ViewBag.tabTitle</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- Container fluid  -->
+            <div class="container-fluid">
+                @RenderBody();
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- footer -->
+            <footer class="footer text-center">
+                2022 © Power By <a href="https://fb.com/BlackHorse.404">Nguyễn Đức Phát</a>
+            </footer>
+            <!-- End footer -->
+        </div>
+        <!-- End Page wrapper  -->
+    </div>
+    <!-- End Wrapper -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="/plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <!--Wave Effects -->
+    <script src="/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="/js/custom.js"></script>
+    <!-- js boostrap -->
+    <script src="~/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/e38254d31d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

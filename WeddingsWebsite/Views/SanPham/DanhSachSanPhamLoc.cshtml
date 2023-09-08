@@ -1,0 +1,207 @@
+﻿@model List<WeddingsWebsite.Models.SanPham>
+@{
+    ViewBag.Title = "Danh Mục Sản Phẩm";
+    Layout = "~/Views/Shared/_SanPhamLayout.cshtml";
+}
+
+<script>
+    //active menu
+    const nav = document.querySelector(".navbar-nav .nav-item:nth-child(3) a")
+    nav.classList.add("active")
+</script>
+<style>
+    #btn-search {
+        padding: 4px 2px;
+    }
+
+        #btn-search:hover {
+            color: #f3969b;
+        }
+
+    .active {
+        color: #f3969b;
+    }
+
+    .pagination-container {
+        display: flex;
+        justify-content: center;
+    }
+
+        .pagination-container > ul li, .pagination-container > ul li a {
+            padding: 0 5px;
+            font-family: Arial;
+        }
+
+    #filter-panel ul li {
+        margin-top: 10px;
+    }
+
+    hr {
+        margin: 40px 0px;
+    }
+
+    .price-input {
+        width: 100%;
+        display: flex;
+        margin: 30px 0 35px;
+    }
+
+        .price-input .field {
+            display: flex;
+            width: 100%;
+            height: 45px;
+            align-items: center;
+        }
+
+    .field input {
+        width: 100%;
+        height: 100%;
+        outline: none;
+        font-size: 19px;
+        margin-left: 12px;
+        border-radius: 5px;
+        text-align: center;
+        border: 1px solid #999;
+        -moz-appearance: textfield;
+    }
+
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+
+    .price-input .separator {
+        width: 130px;
+        display: flex;
+        font-size: 19px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slider {
+        height: 5px;
+        position: relative;
+        background: #ddd;
+        border-radius: 5px;
+    }
+
+        .slider .progress {
+            height: 100%;
+            left: 25%;
+            right: 25%;
+            position: absolute;
+            border-radius: 5px;
+            background: #f3969b;
+        }
+
+    .range-input {
+        position: relative;
+    }
+
+        .range-input input {
+            position: absolute;
+            width: 100%;
+            height: 5px;
+            top: -5px;
+            background: none;
+            pointer-events: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+
+    input[type="range"]::-webkit-slider-thumb {
+        height: 17px;
+        width: 17px;
+        border-radius: 50%;
+        background: #f3969b;
+        pointer-events: auto;
+        -webkit-appearance: none;
+        box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    }
+
+    input[type="range"]::-moz-range-thumb {
+        height: 17px;
+        width: 17px;
+        border: none;
+        border-radius: 50%;
+        background: #f3969b;
+        pointer-events: auto;
+        -moz-appearance: none;
+        box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    }
+</style>
+
+<div class="fade-bottom container mt-5 mb-5">
+    <h2 class="text-center mb-5 mt-1 text-uppercase">Danh Sách Sản Phẩm Tìm Kiếm</h2>
+    <div class="row">
+       
+            <div id="filter-panel" class="col col-md-3 pe-md-5 mt-4">
+                <div class="mt-5">
+                    @using (Html.BeginForm("DanhSachSanPhamLoc", "SanPham", FormMethod.Post))
+                    {
+                        <h5 class="mb-3">Tìm Kiếm</h5>
+                        <div class="form-group position-relative">
+                            <input name="searchDress" type="search" class="form-control pe-5" style="padding-right: 20px;" />
+                            <button type="submit" class="border-0">
+                                <i class="fa-solid fa-magnifying-glass" style="position:absolute; top: 0px; padding: 12px 12px; right: 0px;"></i>
+                            </button>
+                        </div>
+                    }
+                    </div>
+                <div class="mt-4">
+                    @Html.Action("TheLoaiPartial","SanPham")
+                </div>
+                <hr />
+                <div>
+                    @Html.Action("GiaBanPartial", "SanPham")
+                </div>
+                <hr />
+                <div>
+                    @Html.Action("KichThuocPartial", "SanPham")
+                </div>
+            </div>
+        <div id="hot-dress" class="col col-md-9">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                @foreach (var e in Model)
+                {
+                    <div class="col position-relative mb-5 mt-5">
+                        <div class="w-100 h-100" style="height: 450px; max-height: 400px;">
+                            <img src="~/images/AnhPhanLoai/MauVayCuoi/@e.hinhAnhs[0]" class="w-100 h-100" style="object-fit:cover;" />
+                            <img src="~/images/AnhPhanLoai/MauVayCuoi/@e.hinhAnhs[1]" class="w-100 h-100" style="object-fit:cover;" />
+                            <div class="pannel-hot-dress">
+                                <ul class="none-liststyle">
+                                    <li>
+                                        @Html.ActionLink("Add to cart", "ThemGioHang", "SanPham", new { maSP = e.maDo, url = @Request.Url.ToString() }, new { @class = "text-uppercase p-2" })
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fa-regular fa-share-from-square"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("ChiTietSanPham","SanPham",new { @maSP = e.maDo })">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="info-dress text-center mt-4 ps-3 pe-3">
+                            <p style="color: #717171;">@e.theLoai</p>
+                            <h5>@e.tenDoCuoi</h5>
+                            <p class="text-danger" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                @e.Gia.ToString("#,0") VNĐ
+                            </p>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
